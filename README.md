@@ -16,7 +16,7 @@ docker build -t cfrederick/inspirobot .
 docker run -p $IPADDR:9292:9292 -d cfrederick/inspirobot
 ```
 
-However, the simplest way (assuming you have [https://rvm.io/rvm/install](ruby installed) would be to run:
+However, the simplest way (assuming you have [ruby installed](https://rvm.io/rvm/install)) would be to run:
 
 ```
 git clone https://github.com/galvertez/inspirobot-slack.git
