@@ -13,7 +13,7 @@ I am personally using docker using the following script:
 git clone https://github.com/galvertez/inspirobot-slack.git
 cd ./inspirobot-slack
 docker build -t cfrederick/inspirobot .
-docker run -p $IPADDR:9292:9292 -d cfrederick/inspirobot
+docker run -p ${IPADDR}:9292:9292 -d cfrederick/inspirobot
 ```
 
 However, the simplest way (assuming you have [ruby installed](https://rvm.io/rvm/install)) would be to run:
